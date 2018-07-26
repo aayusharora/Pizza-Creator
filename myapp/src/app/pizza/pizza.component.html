@@ -1,0 +1,7 @@
+<div class="pizza">
+  <div class="toppings" *ngFor="let topping of toppings; let i = index">
+    <div class = "spacer">
+    </div>
+    <div class="content {{topping}}" [ngStyle] = "getMyStyles(i)"></div>
+  </div>
+</div>

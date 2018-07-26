@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+.chili {
+  background-image: url('/assets/images/chili.svg');
+}
+
+.mozarella {
+  background-image: url('/assets/images/mozarella.svg');
+}
+
+.pepper {
+  background-image: url('/assets/images/pepper.svg');
+}
+
+.pepperoni {
+  background-image: url('/assets/images/pepperoni.svg');
+}
+
+.prawn {
+  background-image: url('/assets/images/prawn.svg');
+}
+
+.sweetcorn {
+  background-image: url('/assets/images/sweetcorn.svg');
+}
+
+.anchovy {
+  background-image: url('/assets/images/anchovy.svg');
+}
+
+.bacon {
+  background-image: url('/assets/images/bacon.svg');
+}
+
+.basil {
+  background-image: url('/assets/images/basil.svg');
+}
+
+.chilli {
+  background-image: url('/assets/images/chilli.svg');
+}
+
+.mozarella {
+  background-image: url('/assets/images/mozarella.svg');
+}
+
+.mushroom {
+  background-image: url('/assets/images/mushroom.svg');
+}
+
+.olive {
+  background-image: url('/assets/images/olive.svg');
+}
+
+.onion {
+  background-image: url('/assets/images/anchovy.svg');
+}
+
+.tomato {
+  background-image: url('/assets/images/tomato.svg');
+}
+
+.corn {
+  background-image: url('/assets/images/corn.svg');
+}
+
+.mozzarella {
+  background-image: url('/assets/images/mozzarella.svg');
+}
+
+button {
+  padding: 10px;
+  outline: none;
+  border-radius: 8px;
+  width: 120px;
+  background: #ffd701;
+  box-shadow: 2px 2px 1px 1px #ffd701d4;
+  font-weight: bold;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 80px;
+}

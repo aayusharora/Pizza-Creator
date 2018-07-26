@@ -1,0 +1,30 @@
+.pizza {
+  background-image: url('/assets/images/base.svg');
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.toppings {
+  position: absolute;
+  z-index: 100;
+  top: 7%;
+  left: 50%;
+}
+
+.content {
+  height: 30px;
+  width: 30px;
+  margin: 15px;
+  transform-origin: -80px 0px;
+}
+
+.spacer {
+  position: absolute;
+}
+
+.anchovy, .bacon, .basil, .chili, .mushroom, .olive, .onion, .pepper, .pepperoni, .prawn, .sweetcorn, .tomato, .mozzarella {
+  background-repeat: no-repeat;
+}

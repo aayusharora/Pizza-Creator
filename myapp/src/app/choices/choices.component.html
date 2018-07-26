@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="name" *ngFor= "let topping of toppings">
+    <div (click)= selectToppings(topping)>
+        <span class=" icon {{topping}}"></span>
+        <span>
+          {{topping}}
+        </span>
+    </div>
+  </div>
+</div>
+<div class="createPizza">
+    <button (click)= createPizza() >Create Pizza</button>
+</div>
+
+<div #pizza></div>
